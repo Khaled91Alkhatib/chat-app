@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+.background {
+  background: url(../../public/images/hexa_dan_wave_10.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  background-color: rgb(233, 233, 233);
+  padding: 2em 3em;
+  border-radius: 15px;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
+}
+
+.welcome {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.message {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  margin-bottom: 0.8em;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.google-facebook {
+  background-color: rgb(111, 111, 253);
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+  }
+}
+
+.google {
+  margin-bottom: 0.6em;
+}
+
+.icon {
+  margin-right: 0.7em;
+}
