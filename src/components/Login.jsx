@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoogleOutlined, FacebookOutlined } from "@ant-design/icons";
-import "../Styles/Login.scss";
+import "../styles/Login.scss";
 
 const Login = () => {
   return (
